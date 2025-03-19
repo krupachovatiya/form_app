@@ -1,0 +1,166 @@
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.form-1 {
+    width: 50%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.title p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-reg {
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.input-reg input {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+  
+button {
+    width: 65%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.error-reg {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    position: absolute;
+    left: 19%;
+}
+
+.login {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p.login-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: blue;
+}
+  
+.form-2 {
+    width: 40%;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    height: 90vh;
+    background-image: url('./assets/background_img.jpg'); 
+    background-size: cover;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    /* margin-left: 55%; */
+    margin-left: 75%;
+}
+
+.signup-link1 {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.login-link1 {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* .dashboard-link1 {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+} */
+
+.logo-1 {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.content {
+    text-align: center;
+    max-width: 80%;
+}
+
+.reg-title {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 75%;
+    text-align: left;
+}
+
+.reg-h3 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 85%;
+    text-align: left;
+}
+

@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "8827",
+      "fullName": "Abc we",
+      "email": "we@gmail.com",
+      "phone": "0987654321",
+      "password": "Wea@3456"
+    },
+    {
+      "id": "107f",
+      "fullName": "John",
+      "email": "john@gmail.com",
+      "phone": "9066748903",
+      "password": "John@34567"
+    },
+    {
+      "id": "6f19",
+      "fullName": "Charlie",
+      "email": "charlie@gmail.com",
+      "phone": "1234567890",
+      "password": "Charlie@234"
+    },
+    {
+      "id": "fa56",
+      "fullName": "Peter",
+      "email": "peter2@gmail.com",
+      "phone": "9076589989",
+      "password": "Peter2@123"
+    },
+    {
+      "id": "7b5b",
+      "fullName": "Abc",
+      "email": "abc@gmail.com",
+      "phone": "1234567870",
+      "password": "Abc@12345"
+    }
+  ],
+  "login": [
+    {
+      "id": "6f74",
+      "email": "qwer@gmail.com",
+      "password": "Abc@3456"
+    },
+    {
+      "id": "786d",
+      "email": "abc@gmail.com",
+      "password": "Abc@12345"
+    },
+    {
+      "id": "cc88",
+      "email": "charlie@gmail.com",
+      "password": "Charlie@234"
+    },
+    {
+      "id": "d27f",
+      "email": "qwer@gmail.com",
+      "password": "Abc@12345"
+    },
+    {
+      "id": "ae3f",
+      "email": "abc@gmail.com",
+      "password": "Abc@5678"
+    }
+  ]
+}
