@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import './Dashboard.css'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import "./Dashboard.css";
 
 const Dashboard = () => {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
   const getData = () => {
-    axios.get('http://localhost:5002/users').then((resp) => {
-        console.log('Result:', resp)
-        setData(resp.data)
-    })
-}
+    axios.get("http://localhost:3004/users").then((resp) => {
+      console.log("Result:", resp);
+      setData(resp.data);
+    });
+  };
 
-useEffect(() => {
-    getData()
-}, [])
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
-    <div className='dashboard'>
+    <div className="dashboard">
       <h1>User Data</h1>
       <table>
         <thead>
@@ -31,22 +31,19 @@ useEffect(() => {
         </thead>
 
         <tbody>
-          {data.map((item) => 
-          <tr key={item.id}>
-            <td>{item.id}</td>
-            <td>{item.fullName}</td>
-            <td>{item.email}</td>
-            <td>{item.phone}</td>
-            <td>{item.password}</td>
-          </tr>
-          )}
+          {data.map((item) => (
+            <tr key={item.id}>
+              <td>{item.id}</td>
+              <td>{item.fullName}</td>
+              <td>{item.email}</td>
+              <td>{item.phone}</td>
+              <td>{item.password}</td>
+            </tr>
+          ))}
         </tbody>
-        
       </table>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
-
-
+export default Dashboard;
