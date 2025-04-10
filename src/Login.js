@@ -126,7 +126,7 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="form-login2">
+      {/* <div className="form-login2">
         <div className="link-login">
           <Link to="/" className="signup-login">
             Sign up
@@ -144,7 +144,7 @@ const Login = () => {
           </h1>
           <h3 className="login-p1">01____06</h3>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
