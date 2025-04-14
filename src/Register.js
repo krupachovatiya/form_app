@@ -167,7 +167,7 @@ const Register = () => {
         </div>
       </div>
 
-      {/* <div className="form-2">
+      <div className="form-2">
         <div className="link">
           <Link to="/" className="signup-link1">
             Sign up
@@ -186,7 +186,7 @@ const Register = () => {
           </h1>
           <h3 className="reg-h3">01____06</h3>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
